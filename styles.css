@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#about {
+    margin-top: 50px;
+}
+
+img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
